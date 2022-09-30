@@ -1,0 +1,23 @@
+[user]
+	email = thomas@gondard-mary.me
+	name = thomas
+[core]
+	fileMode = false
+[push]
+	default = simple
+[alias]
+	lga = log --graph --pretty=tformat:'%Cred%h%Creset -%C(cyan)%d %Creset%s %Cgreen(%an %cr)%Creset' --abbrev-commit --all
+	log-my-week = !git log --author $(git config user.email)
+	php-cs-fixer = ! git status --porcelain | /bin/grep -e '^[AUM ][UM ].*\\.php$' | awk '{print $2}' | xargs --no-run-if-empty -L 1 php $(which php-cs-fixer) fix  --quiet
+	php-cs-fixer-2 = ! git status --porcelain | /bin/grep -e '^[AUM ][UM ].*\\.php$' | awk '{print $2}' | xargs --no-run-if-empty -L 1 php $(which php-cs-fixer) fix  --quiet
+	co = checkout
+	st = status
+	br = branch
+	cm = commit -m
+	ca = commit -a -m 
+	cp = cherry-pick
+	cb = checkout -b
+	rs = reset --soft
+	rh = reset --hard
+	lsdiff = diff-tree --no-commit-id --name-only -r
+

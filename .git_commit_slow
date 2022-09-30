@@ -1,0 +1,8 @@
+* feat: Développement d'une fonctionnalité
+* fix: Correction d'un bug
+* docs: Documentation
+* style: Sass, ajout / supression de classes ou de sélecteurs dans les templates.
+* codestyle: Formatage du code, mise à jour pour respecter les règles de style
+* refactor: Refactoring de code technique sans impact ou avec impact mineur sur le fonctionnel
+* test: Ajout de tests manquants
+* chore: Litéralement, la plomberie. Outillage de build, de test, etc.

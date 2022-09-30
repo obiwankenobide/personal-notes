@@ -1,0 +1,27 @@
+[Appearance]
+BackgroundColorOpacity=20
+TerminalHighlightOnManualActivation=true
+Translucency=true
+
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[Dialogs]
+FirstRun=false
+
+[Favorite Profiles]
+Favorites=
+
+[Shortcuts]
+close-session=Ctrl+W
+decrease-window-height=Ctrl+Up
+increase-window-height=Ctrl+Down
+new-session=Ctrl+T
+next-session=Ctrl+Right
+previous-session=Ctrl+Left
+
+[Window]
+DynamicTabTitles=true
+Height=90
+Screen=2
+Width=100
